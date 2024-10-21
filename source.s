@@ -247,7 +247,7 @@ clearBoard:
 	dex
 	bpl clearBoard
 	lda #$3
-	ldy #28
+	ldy #$1C
 	sta $EA
 	sta $EB
 	jsr strout
